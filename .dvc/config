@@ -1,0 +1,4 @@
+[core]
+    remote = data-store
+['remote "data-store"']
+    url = /Users/jaganlalthoppe/temp/dvc-storage
