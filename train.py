@@ -25,7 +25,7 @@ import dvc.api
 
 path = "data/wine-quality.csv"
 repo="/Users/jaganlalthoppe/workspace/mlops/data_version_reproducible_ml"
-version="v2"
+version="v1"
 output_path="output/"
 
 data_url = dvc.api.get_url(

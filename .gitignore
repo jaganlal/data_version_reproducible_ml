@@ -3,9 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
 python_libs_env
 mlruns
 output
+
+
 # C extensions
 *.so
 
