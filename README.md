@@ -102,6 +102,7 @@ For simplicity, let's delete 1000 rows from the dataset.
 *Note: `sed` command might change if you're using other OS, the above is the macos command*
 
 Run the following commands to push the update dataset both in DVC and git
+
   ``
   dvc add data/wine-quality.csv
   git add .
