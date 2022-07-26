@@ -103,13 +103,13 @@ For simplicity, let's delete 1000 rows from the dataset.
 
 Run the following commands to push the update dataset both in DVC and git
 
-  ``
+  ```
   dvc add data/wine-quality.csv
   git add .
   git commit -m "data: removed 1000 lines”
   git tag -a "v2" -m "removed 1000 lines from wine-quality.csv"
   dvc push
-  ``
+  ```
 
 Once the about steps are completed, modify the version (*from* **version="v1"** *to* **version="v2"**) in `train.py` and run
   ```
